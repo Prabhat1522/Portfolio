@@ -648,3 +648,38 @@ font-family:'DM Mono',monospace;
 margin-top:28px;
 display:inline-block;
 }
+
+/* =========================
+   MOBILE RESPONSIVE FIXES
+========================= */
+
+@media (max-width:768px){
+
+/* HERO IMAGE FIX */
+
+.profile-pic-wrap{
+width:220px;
+height:220px;
+margin:auto;
+}
+
+
+/* SKILLS GRID */
+
+.skills-cards{
+grid-template-columns:repeat(2,1fr);
+}
+
+/* EDUCATION CARD SPACING */
+
+.edu-card{
+padding:18px;
+}
+
+}
+
+/* TECH CAROUSEL FIX */
+
+.tech-carousel{
+overflow:hidden;
+}
